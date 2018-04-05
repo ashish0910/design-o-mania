@@ -1,0 +1,23 @@
+.header {
+    padding: 15rem 0 ;
+    background-color: gray ;
+
+    background-image: url("img/ngo_img.jpg");
+    background-size: cover ;
+}
+
+.heading-primary{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 70px;
+
+}
+
+.heading-tertiary{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
