@@ -49,14 +49,6 @@
       animation-duration: 0.8s;
       animation-timing-function: ease-out; }
   
-  .heading-secondary {
-    font-size: 3rem;
-    font-weight: 700;
-    display: inline-block;
-    background-image: linear-gradient(to right, #5CDB95, #379683);
-    -webkit-background-clip: text;
-    color: transparent; }
-  
   .heading-tertiary {
     font-size: 1.6rem;
     font-weight: 500;
@@ -113,7 +105,7 @@
 .story__image{
     height: 100%;
     backface-visibility: hidden;
-    transform: scale(1.2);
+    transform: scale(1);
 
 }
 
@@ -132,7 +124,7 @@
 
 .story:hover .story__caption{
     transform: translate(-50%, -50%);
-    opacity:1;
+    opacity:0.5;
 }
 
 .story:hover .story__image{
